@@ -4,6 +4,8 @@
 
 - Download the 1km2 EU population grid from [eurostat](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/population-distribution-demography/geostat#geostat11).
 - Open in QGIS
+
+l
 - Open the area of interest boundary
 - Export the boundary to a new file in 3035 projection (same as population grid)
 - Buffer using Vector - Geoprocessing - Buffer tool and use a ~1000m buffer (or as preferred). This will generate a temporary scratch layer. Save to a geojson file and check that the CRS is 3035.
