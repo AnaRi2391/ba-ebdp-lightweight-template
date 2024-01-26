@@ -6,7 +6,7 @@ authors = []
 dependencies = [
     "shapely>=2.0.2",
     "geopandas>=0.14.1",
-    "cityseer>=4.5.2",
+    "cityseer>=4.6.7",
     "osmnx>=1.7.1",
     "momepy>=0.6.0",
     "networkx>=3.2.1",
@@ -14,8 +14,8 @@ dependencies = [
     "matplotlib>=3.8.1",
     "ipykernel>=6.26.0",
     "pyproj>=3.6.1",
+    "pdm>=2.12.2",
 ]
 requires-python = ">=3.11, <3.12"
 readme = "README.md"
 license = {text = "AGPL-3.0"}
-
